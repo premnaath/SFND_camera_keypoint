@@ -1,3 +1,3 @@
-/home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build/CMakeFiles/rebuild_cache.dir
-/home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build/CMakeFiles/2D_feature_tracking.dir
-/home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build/CMakeFiles/edit_cache.dir
+/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles/rebuild_cache.dir
+/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles/2D_feature_tracking.dir
+/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles/edit_cache.dir

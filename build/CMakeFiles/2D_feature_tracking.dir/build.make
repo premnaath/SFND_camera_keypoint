@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking
+CMAKE_SOURCE_DIR = /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build
+CMAKE_BINARY_DIR = /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/2D_feature_tracking.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/2D_feature_tracking.dir/flags.make
 
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o: CMakeFiles/2D_feature_tracking.dir/flags.make
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o: ../src/matching2D_Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o -c /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/src/matching2D_Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o -c /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp
 
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/src/matching2D_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i
 
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/src/matching2D_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s
 
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o: CMakeFiles/2D_feature_tracking.dir/flags.make
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o: ../src/MidTermProject_Camera_Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o -c /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/src/MidTermProject_Camera_Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o -c /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp
 
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/src/MidTermProject_Camera_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i
 
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/src/MidTermProject_Camera_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s
 
 # Object files for target 2D_feature_tracking
 2D_feature_tracking_OBJECTS = \
@@ -148,7 +148,7 @@ CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s: cmak
 2D_feature_tracking: /usr/local/lib/libopencv_imgproc.so.4.3.0
 2D_feature_tracking: /usr/local/lib/libopencv_core.so.4.3.0
 2D_feature_tracking: CMakeFiles/2D_feature_tracking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 2D_feature_tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 2D_feature_tracking"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2D_feature_tracking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +161,6 @@ CMakeFiles/2D_feature_tracking.dir/clean:
 .PHONY : CMakeFiles/2D_feature_tracking.dir/clean
 
 CMakeFiles/2D_feature_tracking.dir/depend:
-	cd /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build /home/prem/Stuff/Udacity/git/publish/Camera/SFND_2D_Feature_Tracking/build/CMakeFiles/2D_feature_tracking.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles/2D_feature_tracking.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/2D_feature_tracking.dir/depend
 
