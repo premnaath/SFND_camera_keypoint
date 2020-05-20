@@ -93,18 +93,17 @@ A selection of three detector descriptor combination and a brief justification f
 
 All the detectors have a capability to detect keypoints with good repeatability in the order of hundreds which brings more keypoints to describe our targets, which can be used for better description and matching.
 
-**FAST & BRIEF**
+**FAST & BRIEF:**
 FAST detector method is an improvement on Harris edge detector. It possess a good capability to detect keypoint with edge features. The keypoint areas are relatively larger than the ones from Harris edge detector itself, hence convering more area deatures which is handy when it comes to matching. This method is optimized for performance and hence the complete detection is in the order of a few milliseconds.
 
 BRIEF descriptor method describes the keypoint area with binary strings with a use of a XOR operator making it computationally very less intensive. However our only disadvantage is the detector's incapability to handle rotation. But given our use case where there is very less yaw, pitch and roll this combination can be seen a the best combination in detection and describing keypoints.
 
-
-**ORB && SIFT**
+**ORB && SIFT:**
 ORB detector is an enhancement of FAST detector. It uses a pyramid like structure to produce multiscale features. Thus it possess the same advantages of FAST detector and brings another dimension of information to the keypoints. The execution time in comparison with the other set of detectors is quite less, however it is marginally more time consuming than the FAST detector. The keypoint areas covers concentric circles with more area.
 
 SIFT descriptor method possess all the advantages with the use of HOG features to represent the keypoint neighbourhood, hence the descriptor is rotational invariant. This makes the descriptor features more robust and can help in better matching. However this comes with an increase in computational time.
 
-**BRISK && BRIEF**
+**BRISK && BRIEF:**
 The BRISK detector is again a type of corner detection. BRISK features are invariant to scale , roatations and affine transformations. The keypoints comes with a varying neighbourhood areas. The number of detected keypoints is simply a lot, which easily makes this one of the best keypoint detectors. However this comes with an increased computation time.
 
 BRIEF method is already described and possess the same advantages here.
