@@ -43,7 +43,7 @@ int main(int argc, const char *argv[])
     bool bVis = false;            // visualize results
 
     // fstream inits
-    string fs_name = "MTP_v01.csv";
+    string fs_name = "MTP_v02.csv";
     ifstream ifile;
     ifile.open(fs_name);
     ofstream res_write;
@@ -83,7 +83,6 @@ int main(int argc, const char *argv[])
             DataFrame frame;
             frame.cameraImg = imgGray;
             dataBuffer.push_back(frame);
-            cout << "____________SIZE___________: " << dataBuffer.size() << endl;
         }
         else
         {
@@ -92,7 +91,6 @@ int main(int argc, const char *argv[])
             DataFrame frame;
             frame.cameraImg = imgGray;
             dataBuffer.push_back(frame);
-            cout << "____________SIZE___________: " << dataBuffer.size() << endl;
         }
 
         //// EOF STUDENT ASSIGNMENT
@@ -102,7 +100,7 @@ int main(int argc, const char *argv[])
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
-        string detectorType = "SHITOMASI";  // SHITOMASI
+        string detectorType = "SIFT";  // SHITOMASI
         double t_detector = 0;
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType

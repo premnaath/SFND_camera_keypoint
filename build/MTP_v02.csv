@@ -1,0 +1,9 @@
+Detector type,Descriptor type,Image no,Num keypoints,Num Matches,Exec time detector,Exec time descriptor,Exec time matcher,
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000002.png,115,74,65.789,53.6631,0
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000003.png,117,77,69.4857,53.7514,0
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000004.png,115,82,68.8773,53.2846,0
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000005.png,120,80,68.4111,53.0656,0
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000006.png,120,74,68.6268,53.4134,0
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000007.png,136,76,69.4935,53.6964,0
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000008.png,140,91,69.4897,53.6438,0
+SIFT,SIFT,../images/KITTI/2011_09_26/image_00/data/0000000009.png,117,91,69.267,52.8498,0

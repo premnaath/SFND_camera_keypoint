@@ -60,28 +60,28 @@ include CMakeFiles/2D_feature_tracking.dir/flags.make
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o: CMakeFiles/2D_feature_tracking.dir/flags.make
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o: ../src/matching2D_Student.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o -c /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o -c /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp
 
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.i
 
 CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/matching2D_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.s
 
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o: CMakeFiles/2D_feature_tracking.dir/flags.make
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o: ../src/MidTermProject_Camera_Student.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o -c /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o -c /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp
 
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp > CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.i
 
 CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prem/Stuff/Udacity/git/clones/SFND_camera_keypoint/src/MidTermProject_Camera_Student.cpp -o CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.s
 
 # Object files for target 2D_feature_tracking
 2D_feature_tracking_OBJECTS = \
